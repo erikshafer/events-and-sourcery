@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRolling", ".\DiceRollin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment", ".\Equipment\Equipment.csproj", "{00BBBE1E-04D9-4DB7-A561-02F13E0FAD61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatEncounters", ".\CombatEncounters\CombatEncounters.csproj", "{612B8D9C-11A3-4298-923F-EACB49A964E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combat", "Combat\Combat.csproj", "{612B8D9C-11A3-4298-923F-EACB49A964E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs", ".\Jobs\Jobs.csproj", "{818212E1-7EA5-4F69-A167-695A12B0CC09}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battlefield", ".\Battlefield\Battlefield.csproj", "{A65051C2-879E-4978-A512-FC8076A8EBBE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upbringings", "Upbringings\Upbringings.csproj", "{AECEF529-ED24-4ABC-A631-FC4514842753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encounters", "Encounters\Encounters.csproj", "{F60C2864-3E7D-41CD-86FD-146867ED961A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,7 @@ Global
 		{F0A5A456-0A10-4A5E-BB15-E3C38CD0DBFD} = {A149A196-EB19-4A34-AA9E-A9A0B448D6AB}
 		{A65051C2-879E-4978-A512-FC8076A8EBBE} = {7CF27888-16E8-4927-8CA3-304B3F1CC61A}
 		{AECEF529-ED24-4ABC-A631-FC4514842753} = {A149A196-EB19-4A34-AA9E-A9A0B448D6AB}
+		{F60C2864-3E7D-41CD-86FD-146867ED961A} = {7CF27888-16E8-4927-8CA3-304B3F1CC61A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{15A8F112-59B8-4329-9043-61D48C57B50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -91,5 +94,9 @@ Global
 		{AECEF529-ED24-4ABC-A631-FC4514842753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AECEF529-ED24-4ABC-A631-FC4514842753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AECEF529-ED24-4ABC-A631-FC4514842753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60C2864-3E7D-41CD-86FD-146867ED961A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60C2864-3E7D-41CD-86FD-146867ED961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60C2864-3E7D-41CD-86FD-146867ED961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60C2864-3E7D-41CD-86FD-146867ED961A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

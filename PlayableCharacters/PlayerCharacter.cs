@@ -34,6 +34,7 @@ public sealed class PlayerCharacter : Aggregate
         Name = name;
 
         Level = 1;
+        Status = PlayerCharacterStatus.Draft;
     }
 
     public static PlayerCharacter Initialize(Guid id, Player player, Species.Species species, Job job, string name)
